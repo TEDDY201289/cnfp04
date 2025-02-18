@@ -21,14 +21,8 @@ output "master-aus-vpc-output" {
 output "shopping-aus-vpc-output" {
   value = data.aws_vpc.shopping-account-aus-vpc
 }
-# output "shopping-jp-vpc-output" {
-#   value = data.aws_vpc.shopping-account-jp-vpc
-# }
-
-
-# output "dev-sg-vpc-output" {
-#   value = data.aws_vpc.dev-account-sg-vpc
-# }
-# output "dev-jp-vpc-output" {
-#   value = data.aws_vpc.dev-account-jp-vpc
+output "shopping-jp-vpc-output" {
+  value = data.aws_vpc.shopping-account-jp-vpc
 }
+
+
